@@ -1,0 +1,34 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Project Planning",
+      "date": "25, Feb 2021",
+      "reminder": false
+    },
+    {
+      "id": 4,
+      "text": "Project Implementation",
+      "date": "25, May 2021",
+      "reminder": true
+    },
+    {
+      "text": "Keep Coding",
+      "date": "Every Day",
+      "reminder": false,
+      "id": 5
+    },
+    {
+      "text": "Keep Coding Vikthur!",
+      "date": "Always",
+      "reminder": true,
+      "id": 6
+    },
+    {
+      "text": "New Task",
+      "date": "Task Date",
+      "reminder": false,
+      "id": 7
+    }
+  ]
+}

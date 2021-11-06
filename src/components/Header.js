@@ -1,12 +1,13 @@
+import { useLocation } from 'react-router-dom'
 import PropTypes from 'prop-types'
 import Button from './Button'
 
 const Header = ({ title, onToggle, formIsOpen }) => {
-
+    const location = useLocation()
     return (
         <header className="header">
             <h1>{title}</h1>
-            <Button onClick={onToggle} color={formIsOpen ? 'red': 'green'} text={formIsOpen ? 'Close' : 'Add' } />
+            { location.pathname === '/' && <Button onClick={onToggle} color={formIsOpen ? 'red': 'green'} text={formIsOpen ? 'Close' : 'Add' } />}
         </header>
     )
 }
